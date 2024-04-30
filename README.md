@@ -3,10 +3,13 @@ Listing 28 CYD-BasicArray/BasicArr.java Page 54
 
 # Section 7. Arrays  
 
-Arrays are the simplest data structure. An array can be viewed as a fixed-sized collection of elements of the same type in which elements are ordered and can be accessed by specifying their **index**. Indices start with 0 (first element), so the last element has
-index size-1, where size is the size (length, dimension) of the array, i.e., number of its elements. 
+Arrays are the simplest data structure. An array can be viewed as a **fixed-sized collection** of elements of the same type in which elements are ordered and can be accessed by specifying their **index**. 
 
-In Java, arrays are _objects_ — this means that they carry not only information on their elements but also some other information, in particular on their size. It also means that they are always created on the heap and never have names: we can refer to them only using _references_ to them (i.e., in C/C++ language, pointers — variables which hold, as their values, _addresses_ of objects).  
+Indices start with 0 (first element), so the last element has index size-1, where size is the size (length, dimension) of the array, i.e., number of its elements. 
+
+In Java, arrays are _objects_ — this means that they carry not only information on their elements but also some other information, in particular on their size. 
+
+It also means that they are always created on the heap and never have names: we can refer to them only using _references_ to them (i.e., in C/C++ language, pointers — variables which hold, as their values, _addresses_ of objects).  
 
 ## 7.1 Creating arrays  
 
