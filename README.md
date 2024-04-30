@@ -14,7 +14,7 @@ Arrays can be created in several ways, illustrated in the example below. Points 
 
 * When an array is created, its size must be specified and then cannot be modified.  
 
-* The type reference to array of elements of type Type is denoted by Type[]. Statement int[] arr; means that arr is a reference to array of ints — only a reference (with value null) is created, not an array! One can also write int arr[]; but this notation is not recommended.
+* The type _reference to array of elements of type_ `Type` is denoted by `Type[]`. Statement `int[] arr;` means that `arr` is a reference to array of `int`s — only a reference (with value `null`) is created, not an array! One can also write `int arr[];` but this notation is not recommended.
 
 * If `arr` is a reference to an array, the expression `arr.length` is of type `int` and its value is the length (size, dimension) of the array referenced to by `arr`.
 
